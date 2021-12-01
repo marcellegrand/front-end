@@ -1,0 +1,27 @@
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: brown;
+}
+
+.header .__container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .__container .__left {
+    text-align: left;
+    font-size: 36px;
+    color: white;
+    font-weight: bolder;
+}
+
+.header .__container .__right {
+    text-align: right;
+}
