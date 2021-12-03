@@ -1,0 +1,30 @@
+.logos {
+    animation-name: changeImage;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+    width: 600px;
+    height: 600px;
+
+    border-radius: 100%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: brown;
+    
+    background-size: cover;
+}
+
+@keyframes changeImage {
+    0% {
+        background-image: url('../../assets/images/transition_image_01.jpg');
+    }
+    33% {
+        background-image: url('../../assets/images/transition_image_02.jpg');
+    }
+    66% {
+        background-image: url('../../assets/images/transition_image_03.jpg');
+    }
+    100% {
+        background-image: url('../../assets/images/transition_image_04.jpg');
+    }
+}

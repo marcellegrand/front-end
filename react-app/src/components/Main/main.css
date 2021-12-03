@@ -1,7 +1,38 @@
 .main {
-    height: 500px;
+    height: 800px;
 
-
-    background: linear-gradient(rgba(245, 238, 39, 0.33), rgba(243, 12, 12, 0.33)), no-repeat center/100% url('../../assets/images/main_background.jpg');
-     
+    background: linear-gradient(rgba(245, 238, 39, 0.4), rgba(243, 12, 12, 0.4)), no-repeat 100%/100% url('../../assets/images/main_background.jpg');
+    background-size: 100% 100%; 
+    background-size: cover;
 }
+
+.main .__container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    height: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.main .__container .__left {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main .__container .__right {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+

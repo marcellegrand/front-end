@@ -1,15 +1,23 @@
+import { Logos } from '../Logos';
+import { Presentation } from '../Presentation';
+
+
 import './main.css'
 
-function Main() {
+function Main(props) {
+    const { brand } = props;
+
     return (
-        <div className = "main">
-            <div className = "__left">
-                <p>Just LEFT</p>
+        <main className = "main">
+            <div className = "__container">
+                <div className = "__left">
+                    <Logos />
+                </div>
+                <div className = "__right">
+                    <Presentation brand = {props.brand}/>
+                </div>
             </div>
-            <div className = "__right">
-                <p>Just RIGHT</p>
-            </div>
-        </div>
+        </main>
     );
 };
 

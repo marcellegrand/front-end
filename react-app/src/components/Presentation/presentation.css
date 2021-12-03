@@ -1,0 +1,14 @@
+.presentation {
+    color: white;
+}
+
+.presentation .__title {
+    font-size: 48px;
+}
+
+.presentation .__description, .__conclusion {
+    font-style: italic;
+    font-size: 32px;
+
+    margin-top: 20px;
+}

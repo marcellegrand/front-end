@@ -1,3 +1,5 @@
+import { Navigation } from '../Navigation';
+
 import './header.css';
 
 function Header(props) {
@@ -10,7 +12,7 @@ function Header(props) {
                     <h2>{props.brand}</h2>
                 </div>
                 <div className = "__right">
-
+                    <Navigation />
                 </div>
             </div>
         </header>
