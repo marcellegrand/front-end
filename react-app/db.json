@@ -1,0 +1,14 @@
+{
+    "productores": [
+      {
+        "id": 1,
+        "ruc": "",
+        "dni": "40233185",
+        "razon_social": "",
+        "nombres": "Marcel Johan",
+        "apellidos": "Lazo de la Vega Velarde",
+        "correo_electronico": "marcel.lazodelavega@gmail.com",
+        "numero_contacto": "959361938"
+      }
+    ]
+  }
